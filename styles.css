@@ -21,7 +21,37 @@ body {
   font-size: 12px;
   line-height: 20px;
   color: var(--primary-text-clr);
-  padding: 0 20px;
+  /* padding: 0 20px; */
+}
+
+.navbar {
+  background-color: #f1eded;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: rgb(10, 9, 9);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+  background: var(--rright-bg);
 }
 
 h2 {
